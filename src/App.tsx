@@ -1,11 +1,15 @@
-import Message from "./Message";
-import Calculator from "./calculator";
+// import Message from "./Message";
+// import Calculator from "./calculator";
+
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
     <div>
-      <Calculator></Calculator>
-      <Message></Message>
+      {/* <Calculator></Calculator>
+      <Message></Message> */}
+      <Dashboard />
+      
     </div>
   );
 }
